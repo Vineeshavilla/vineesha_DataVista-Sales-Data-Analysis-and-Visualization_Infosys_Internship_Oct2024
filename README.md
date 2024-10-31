@@ -33,6 +33,29 @@
 8. Saving a plot
 9. logarithmic scale
 10. Plotting with Annotation
+# Data Visualization statisticsl
+- **Use case:** Used for creating visually appealing, statistically-focused plots with minimal code.
+- **Library used:** Seaborn
+### codes executed:
+1. Bar Plot
+2. Box Plot
+3. Boxen Plot
+4. Cat Plot
+5. Count Plot
+6. FacetGrid
+7. Heatmap Plot
+8. Histogram
+9. Joint Plot
+10. KDE Plot
+11. Line Plot
+12. Pair Plot
+13. Pair + Grid Plot
+14. Point Plot
+15. Regression Plot
+16. Scatter Plot
+17. Strip Plot
+18. Swarm Plot
+19. Violen Plot
 # Deep Learning Image Processing
 - **Use case:** Digitializing and executing images with help of vision(deep learning-cnn) frameworks/libraries.
 - **Library used:** OpenCV
