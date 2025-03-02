@@ -1,89 +1,76 @@
 # DataVista-Sales-Data-Analysis-and-Visualization_Infosys_Internship_Oct2024
-# Data Operations
-- **Use case:** learning how to perform Arithmatic and modulus operations.
-- widely used in scientific computing which supports  Arrays and matrices alonng with the large collection of high level mathematical functions to operate on these data structures.  
-- **library used:** Numpy
-### codes executed:
-1. Linear Regression
-2. Logistic Regression
-3. Euclidean distance
-4. PCA
-5. K-Means Algorithm
-6. Naive Bayes Classifier
-7. SVM
-# Data Processing
-- **Use case:** it is used for manipulating, transforming and analyzing data.
-- **Library used:** Pandas
-### codes executed:
-1. Reading a file(csv, excel)
-2. Executing and Exttracting the Headings
-3. Updating Existing column names
-4. Data Cleaning
-# Data Visualization
-- **Use case:** used for visualizing the data for better understanding.
-- **Library used:** Matplotlib
-### codes executed:
-1. Simple line plot
-2. Scatter plot
-3. Bar plot
-4. Histogram
-5. Pie chart
-6. combination of line and bar plot
-7. customizationof line styles
-8. Saving a plot
-9. logarithmic scale
-10. Plotting with Annotation
-# Data Visualization statisticsl
-- **Use case:** Used for creating visually appealing, statistically-focused plots with minimal code.
-- **Library used:** Seaborn
-### codes executed:
-1. Bar Plot
-2. Box Plot
-3. Boxen Plot
-4. Cat Plot
-5. Count Plot
-6. FacetGrid
-7. Heatmap Plot
-8. Histogram
-9. Joint Plot
-10. KDE Plot
-11. Line Plot
-12. Pair Plot
-13. Pair + Grid Plot
-14. Point Plot
-15. Regression Plot
-16. Scatter Plot
-17. Strip Plot
-18. Swarm Plot
-19. Violen Plot
-# Deep Learning Image Processing
-- **Use case:** Digitializing and executing images with help of vision(deep learning-cnn) frameworks/libraries.
-- **Library used:** OpenCV
-### codes executed:
-1. Image reading
-2. Image crop
-3. image resizing
-4. image rotation
-5. gray scale conversion
-6. Contour
-7. Blur
-8. Dialation and Erosion
-9. HSV
-10. Image Concatination
-11. Thresholding
-12. Template Matching
-13. Histogram
-14. Canny Edge Detection
-15. Morphological Operation
-# Deep Learning Video Processing
-- **Use case:** Digitializing and executing videos with help of vision(deep learning-cnn) frameworks/libraries.
-- **Library used:** OpenCV
-### codes executed:
-1. Video Streaming
-2. video stacking
-3. video saving
-4. FPS
-5. Multiple Video Streaming
-# Sales Data Analysis and Visualization
-- **Use Case:** Processing, Analyzing and Visualizing the Sales data.
-- **Libraries used:** Numpy, Pandas, Matplotlib, Seaborn
+
+
+## 📌 Overview
+
+This project performs an in-depth analysis of Amazon sales data to uncover insights into product pricing, discounts, customer ratings, and reviews. The goal is to provide valuable business intelligence that helps optimize sales strategies and understand customer behavior.
+
+## 📊 Features
+Data Preprocessing & Cleaning: Handling missing values, data type conversion, and feature engineering.
+
+Exploratory Data Analysis (EDA): Identifying trends in pricing, discounts, and customer feedback.
+
+Visualization & Insights: Using Matplotlib and Seaborn for interactive charts and graphs.
+
+Customer Sentiment Analysis: Evaluating user reviews to understand customer satisfaction.
+
+Discount vs. Sales Impact: Investigating how discounts affect product ratings and purchase behavior.
+
+## 🛠️ Technologies Used
+
+Python: Primary language for analysis.
+
+Pandas & NumPy: Data manipulation and numerical computations.
+
+Matplotlib & Seaborn: Data visualization.
+
+Jupyter Notebook: Interactive analysis.
+
+## 📂 Dataset
+
+The dataset contains 1465 rows and 16 columns, including the following key attributes:
+
+product_id, product_name, category
+
+discounted_price, actual_price, discount_percentage
+
+rating, rating_count
+
+user_id, user_name, review_id, review_title, review_content
+
+## 🔍 Insights Extracted
+
+Price vs. Rating Relationship: Higher discounts tend to attract more buyers, but do they impact ratings?
+
+Best-Selling Categories: Identifying which product categories perform best.
+
+Customer Feedback Trends: Analyzing positive vs. negative sentiments in reviews.
+
+Top Discounted Products: Finding the most attractive discounts and their effect on sales.
+
+## 📈 Visualizations
+
+Distribution of discounts across categories
+
+Price vs. rating correlation
+
+Word cloud analysis of reviews
+
+Heatmaps to analyze trends
+
+## 🚀 How to Run the Project
+
+Clone this repository:
+
+git clone https://github.com/Vineeshavilla/Amazon_Sales_Analysis.git
+
+Navigate to the project folder and install dependencies:
+
+cd Amazon_Sales_Analysis
+pip install -r requirements.txt
+
+Open the Jupyter Notebook:
+
+jupyter notebook Amazon_Sales_Analysis.ipynb
+
+Run the cells sequentially to explore the data and visualizations.
